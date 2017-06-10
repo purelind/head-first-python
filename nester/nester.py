@@ -1,4 +1,4 @@
-def print_lol(the_list, level):
+def print_lol(the_list, level=0):
     """
     para the_list: type list
     return : void
