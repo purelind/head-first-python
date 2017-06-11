@@ -26,7 +26,9 @@ try:
     print(man, file=man_file)
     print(other, file=other_file)
 
-    man_file.close()
-    other_file.close()
 except IOError:
     print('File error.')
+
+finally:
+    man_file.close()
+    other_file.close()
