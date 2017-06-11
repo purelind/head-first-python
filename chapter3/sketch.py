@@ -1,6 +1,6 @@
 import os
 
-if os.path.exists('sketch.txt'):
+try:
     data = open('sketch.txt')
 
     for each_line in data:
@@ -13,6 +13,6 @@ if os.path.exists('sketch.txt'):
             pass
 
     data.close()
-else:
+except:
     print('The data file is missing!')
 
