@@ -19,6 +19,10 @@ def get_coach_data(filename):
         return None
 
 sarah = get_coach_data('sarah2.txt')
-(sarah_name, sarah_job) = sarah.pop(0), sarah.pop(0)
-print(sarah_name + "'s fastest times are: " +
-      str(sorted(set([sanitize(t) for t in sarah]))[0:3  ]))
+
+sarah_data = {}
+sarah_data['Name'] = sarah.pop(0)
+sarah_data['DOB'] = sarah.pop(0)
+sarah_data['Times'] = sarah
+print(sarah_data['Name'] + "'s fastest times are: " +
+      str(sorted(set([sanitize(t) for t in sarah_data['Times']]))[0:3]))
