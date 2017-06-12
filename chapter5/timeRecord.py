@@ -20,7 +20,7 @@ with open('sarah.txt') as saf:
 james = sorted([sanitize(t) for t in james])
 julie = sorted([sanitize(t) for t in julie])
 mikey = sorted([sanitize(t) for t in mikey])
-sarah = sorted([sanitize(t) for t in james])
+sarah = sorted([sanitize(t) for t in sarah])
 
 unique_james = []
 unique_julie = []
