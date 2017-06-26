@@ -47,7 +47,7 @@ th {
 
 caption {
   font-style:       italic;
-  padding-top:      8px;
+  adding-top:      8px;
 }
 
 .center {
@@ -67,7 +67,7 @@ table table th {
 }
 
 li {
-  list-style-image: url(images/backpack.gif);
+  /* list-style-image: url(images/backpack.gif); */
   padding-top:      5px;
   margin-left:      10px;
 }
